@@ -1,0 +1,9 @@
+.app-container {
+    display: flex;
+    height: 100vh; /* Use 100% of the viewport height */
+  }
+  
+  .app-container > * {
+    flex: 1; /* Each child takes up equal space */
+  }
+  

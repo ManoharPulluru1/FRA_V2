@@ -1,0 +1,42 @@
+.mapsParent {
+    width: 100%;
+    height: 100%;
+    /* background-color: gray; */
+    display: flex;
+    /* border-right: 1px solid var(--Grey-300, #DADCE0); */
+}
+.link{
+    text-decoration: none;
+}
+   
+.sidebar {
+    width: 5.625%;
+    height: 100%;
+}
+
+.mapsBody {
+    width: 94.475%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.bodyContent {
+    height: 94.45%;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.messageBoard{
+    width: 24%;
+    height: 100%;
+}
+.footer {
+    height: 8%;
+    width: 100%;
+}
+
+.smallmapsbody{
+    width: 70.35%;
+}

@@ -1,0 +1,74 @@
+.content-container {
+  width: 23%;
+  height: 26.38%;
+  height: fit-content;
+  position: relative;
+  margin-top: 1%;
+  display: flex;
+  flex-direction: column;
+}
+.content-container .image-content {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.title {
+  color: black;
+  background: var(--Grey-50, #eff0f0);
+  font-family: Roboto;
+  font-size: clamp(0.05859375rem, 0rem + 0.9375vw, 5.859375rem);
+  font-style: normal;
+  font-weight: 400;
+}
+.pin_icon_conatiner {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 7%;
+  height: 10%;
+  aspect-ratio: 1;
+  top: 2%;
+  right: 8%;
+  background-color:white;
+}
+
+.pin_icon_conatiner img
+{
+  max-width: 100%;
+  max-height: 100%;
+  margin: 2px ;
+  border-right: 2px solid white;
+}
+.share_icon_conatiner {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 7%;
+  height: 10%;
+  aspect-ratio: 1;
+  top: 2%;
+  right: 1.6%;
+  background-color:white;
+}
+
+.share_icon_conatiner img
+{
+  max-width: 100%;
+  max-height: 100%;
+  margin: 2px ;
+  border-left: 2px solid white;
+}
+.file-name {
+  color: black;
+  background: var(--Grey-50, #eff0f0);
+  padding-left: 3%;
+  display: flex;
+  align-items: center;
+  height: 10%;
+  width: 100%;
+  font-size: clamp(
+    0.0488125rem,
+    6.938893903907228e-18rem + 0.7809999999999999vw,
+    4.88125rem
+  );
+}

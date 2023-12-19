@@ -1,0 +1,120 @@
+.R1 {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.R1-left {
+    width: 67.93%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.R1-right {
+    width: 8.27%;
+    height: 57.14%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.R1-right img {
+    width: 100%;
+    height: 100%;
+}
+
+.R1 .R1-left .img-block {
+    width: 21.3%;
+    height: 100%;
+}
+
+.R1 .R1-left .img-block img {
+    width: 100%;
+    height: 100%;
+}
+
+.R1 .R1-left .text-block {
+    width: 60.91%;
+    height: 100%;
+}
+
+.R1 .first-text, .R1 .second-text {
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.R1 .R1-left .text-block .first-text text {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: clamp(0.05859375rem, 0rem + 0.9375vw, 5.859375rem);
+    font-weight: 500;
+    color: #292929;
+    display: flex;
+    align-items: center;
+}
+
+.R1 .R1-left .text-block .second-text text {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: clamp(0.0488125rem, 6.938893903907228e-18rem + 0.7809999999999999vw, 4.88125rem);
+    color: #8B8989;
+    display: flex;
+    align-items: center;
+}
+
+.R2 {
+    width: 100%;
+    height: 27%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.R2 .first-block {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+}
+
+.R2 .first-block .txt-block {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.R2 .first-block .frst-col-txt {
+    height: 100%;
+    width: 30%;
+}
+
+.R2 .first-block .second-col-txt {
+    height: 100%;
+    width: 65%;
+}
+
+.R2 .first-block .frst-col-txt text {
+    height: 100%;
+    color: var(--Grey-600, #8B8989);
+    font-family: 'Roboto', sans-serif;
+    font-size: clamp(0.0488125rem, 6.938893903907228e-18rem + 0.7809999999999999vw, 4.88125rem);
+}
+
+.R2 .first-block .second-col-txt text {
+    height: 100%;
+    color: var(--Grey-900, #292929);
+    font-size: 12px;
+    font-weight: 400;
+    font-size: clamp(0.0488125rem, 6.938893903907228e-18rem + 0.7809999999999999vw, 4.88125rem);
+}

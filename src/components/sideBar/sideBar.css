@@ -1,0 +1,113 @@
+.sideBar {
+    height: 100%;
+    width: 100%;
+    border-right: 1px solid var(--Grey-300, #DADCE0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color:white;
+}
+
+.logoSideBar {
+    width: 44.4%;
+    height: auto;
+    /* height: auto; */
+    position: absolute;
+    top: 2.22%;
+}
+
+.overlaysForLogos {
+    width: 80.56%;
+    height: 5.28%;
+    position: absolute;
+    top: 22.50%;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    cursor: pointer;
+    /* background: var(--Primary-colours-200, #E6F0FF); */
+}
+
+.sideLogos {
+    width: 44.83%;
+    height: auto;
+}
+
+.incidentLogo {
+    width: 80.56%;
+    height: 5.28%;
+    position: absolute;
+    top: 34.4%;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    cursor: pointer;
+    /* background: var(--Primary-colours-200, #E6F0FF); */
+}
+
+.camerasLogo {
+    width: 80.56%;
+    height: 5.28%;
+    position: absolute;
+    top: 46.39%;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    border-radius: 4px;
+    /* background: var(--Primary-colours-200, #E6F0FF); */
+}
+
+.comunicationLogo {
+    width: 80.56%;
+    height: 5.28%;
+    position: absolute;
+    top: 58.33%;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    cursor: pointer;
+    /* background: var(--Primary-colours-200, #E6F0FF); */
+}
+
+.cmsLogo {
+    width: 80.56%;
+    height: 5.28%;
+    position: absolute;
+    top: 70.28%;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    cursor: pointer;
+    /* background: var(--Primary-colours-200, #E6F0FF); */
+}
+
+.sideMainLogos {
+    width: 39%;
+    height: auto;
+    position: absolute;
+    top: 87.78%;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    
+    /* background: var(--Primary-colours-200, #E6F0FF); */
+}
+
+.logoTxtSide {
+    position: absolute;
+    top: 93.89%;
+    width: 100%;
+    height: fit-content;
+    font-family: 'Roboto', sans-serif;
+    font-size: clamp(0.0439375rem, 0rem + 0.703vw, 4.39375rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    color:black;
+}
+.selected {
+    background: var(--Primary-colours-200, #E6F0FF);
+  /* Add any other styles for the selected state */
+}

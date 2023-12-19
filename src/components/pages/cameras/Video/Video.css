@@ -1,0 +1,217 @@
+#main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-image: url(./images/Video-img.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow:hidden;
+}
+
+
+.icons{
+  display: flex;
+  padding: 1rem;
+
+
+}
+.icons div {
+  width: 2.75rem;
+  height: 2.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--Whites-White-1, #fff);
+}
+.icons img{
+  width: 1.25rem;
+height: 1.25rem;
+flex-shrink: 0;
+}
+
+
+.icons div:hover{
+background-color: #E6F0FF !important;
+}
+
+.iconsDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.iconsDiv .mapDiv{
+  width: 2.75rem;
+  height: 2.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--Whites-White-1, #fff);
+}
+.bottom{
+  width:94.74%;
+  height:9.11rem;
+  position:absolute;
+  bottom: 0.21%;
+  display:flex;
+  flex-direction:column;
+}
+.bottom-1{
+  width:100%;
+  height:3.36rem;
+  opacity: 0.7;
+  background: var(--Grey-Dark-modes-7, #4B5A6B);
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--Whites-White-5, #F0F0F0);
+}
+.bottom-2{
+  width:100%;
+  height:0.9rem;
+  
+  background-color: var(--Emergency-levels---IPAWS-Red, #FF181E);
+}
+.bottom-3{
+  width:100%;
+  height:3.35rem;
+  display:flex;
+  flex-direction: row;
+  background-color: var(--Grey-500, #C5C8CD);
+  justify-content: space-between;
+  align-items: center;
+
+}
+.bottom-4{
+  width:100%;
+  height:1.5rem;
+  color: var(--Whites-White-1, var(--White, #FFF));
+  font-family: 'Roboto', sans-serif;
+  font-size: clamp(0.05859375rem, 0rem + 0.9375vw, 5.859375rem);
+  font-style: normal;
+  font-weight: 500;
+
+}
+.leftFooter{
+  display: flex;
+  gap: 2%;
+}
+.date-cal{
+width: 12.5rem;
+height: 2.5rem;
+display: flex;
+flex-direction:row;
+padding: 0.41669rem 0.83331rem;
+justify-content: space-between;
+align-items: center;
+border-radius: 0.41669rem;
+background: var(--Grey-50, #EFF0F0);
+}
+.date{
+  display: flex;
+  flex-direction:column;
+  color:#383838;
+  font-family: 'Roboto', sans-serif;
+  font-size: clamp(0.05859375rem, 0rem + 0.9375vw, 5.859375rem);
+  font-style: normal;
+  font-weight: 500;
+
+}
+.calend{
+  display: flex;
+  justify-content: center;
+}
+.cam-img{
+display: flex;
+width: 2.5rem;
+height: 2.5rem;
+padding: 0.41656rem 0.41669rem 0.41675rem 0.41663rem;
+justify-content: center;
+align-items: center;
+border-radius: 0.20831rem;
+background: var(--Grey-50, #EFF0F0);
+}
+.rightFooter{
+  display: flex;
+  gap: 2%;
+  border-radius: 0.20831rem;
+background: var(--Grey-50, #EFF0F0);
+}
+.leftIcons{
+  width:2.5rem;
+  height:2.5rem; 
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EFF0F0;
+  border-radius: 1.66%;;
+}
+.zoom-icons{
+  width:5.75rem;
+  height:2.5rem;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  padding: 0.13019rem 0.41669rem;
+  align-items: center;
+  padding: 0.13019rem 0.41669rem;
+  border: 1.786px solid var(--Grey-50, #EFF0F0);
+  background: var(--Grey-50, #EFF0F0);
+}
+.playButton{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap: 1rem;
+}
+
+
+.icon-block{
+  width: 5rem;
+  height:5rem;
+  display:flex;
+  flex-direction:column;
+  justify-content: flex-end;
+  position:absolute;
+  bottom:25.355%;
+  padding: 1rem;
+
+}
+.icon-middle{
+  display:flex;
+  justify-content:space-between;
+
+}
+.icon-top{
+  display:flex;
+  justify-content:center;
+
+}
+
+/* /////////////////////////////// */
+
+.date,
+.calend {
+  margin-right: 1rem; /* Adjust spacing between Date and Calendar */
+}
+
+@media (max-width: 768px) {
+  .bottom-3, .bottom-2 {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .leftFooter,
+  .playButton,
+  .rightFooter {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 0.5rem; /* Adjust spacing between sections */
+  }
+
+  .date-cal,
+  .zoom-icons {
+    margin-bottom: 0.5rem; /* Adjust spacing between sections */
+  }
+}

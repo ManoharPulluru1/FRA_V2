@@ -1,0 +1,178 @@
+.camerasComponent {
+  height: 100%;
+  width: 100%;
+  /* background-color: rgb(195, 217, 195); */
+  display: flex;
+  flex-direction: column;
+  padding: 5.28% 1.32% 0 1.32%;
+  overflow: hidden;
+}
+
+.cam-v1 {
+  height: 2.78%;
+  width: 10.6%;
+  font-family: Roboto;
+  /* font-size: 12px; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: clamp(0.078125rem, 0rem + 1.25vw, 7.8125rem);
+  line-height: normal;
+  display: flex;
+  align-items: flex-end;
+}
+
+.cam-v2 {
+  height: fit-content;
+  width: 100%;
+  margin-top: 2.22%;
+  display: flex;
+  column-gap: 1.66%;
+}
+
+.cam-v3 {
+  column-gap: 1.66%;
+  height: fit-content;
+  width: 100%;
+  margin-top: 1.11%;
+  display: flex;
+}
+
+.cam-v4 {
+  height: 50%;
+  width: 100%;
+  margin-top: 2.22%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  overflow-y: scroll;
+  scrollbar-width: 0;
+  row-gap: 2%;
+  column-gap: 1%;
+}
+
+.cam-v4::-webkit-scrollbar {
+  width: 0;
+  height: 0; /* Set the width to 0 to hide the scrollbar */
+}
+
+.cam_head,
+.area_head {
+  width: 3.97%;
+  color: var(--Grey-800, #383838);
+  /* Reg/12 */
+  font-family: Roboto;
+  /* font-size: 12px; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(0.05859375rem, 0rem + 0.9375vw, 5.859375rem);
+  line-height: normal;
+}
+
+.cam_icons {
+  font-family: Roboto;
+  font-size: clamp(0.05859375rem, 0rem + 0.9375vw, 5.859375rem);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  width: 68%;
+}
+
+.cam_icon {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  border-radius: 4px;
+  border: 0.5px solid var(--Grey-Dark-modes-7, #4b5a6b);
+  gap: 0.5rem;
+  padding: 0.2rem 0.25rem;
+}
+
+.cam_icon_img_div {
+  height: fit-content;
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.cam_icon_img {
+  height: auto;
+  width: 100%;
+  object-fit: cover; /*Make the image cover the entire height while maintaining aspect ratio */
+}
+
+.cam_icon_text {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.cam_img_div {
+  height: 34.67%;
+  min-width: 24.49%;
+  /* background-color: gray; */
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.testImg {
+  height: 90%;
+  width: 100%;
+  object-fit: cover; /* Make the image cover the entire div without stretching */
+}
+
+.cam_img_text {
+  padding-left: 3%;
+  display: flex;
+  align-items: center;
+  height: 10%;
+  width: 100%;
+  font-size: clamp(
+    0.0488125rem,
+    6.938893903907228e-18rem + 0.7809999999999999vw,
+    4.88125rem
+  );
+}
+
+.cid_1 {
+  position: absolute;
+  display: flex;
+  width: 5%;
+  height: 10%;
+  aspect-ratio: 1;
+  top: 0;
+  left: 0;
+  border-radius: 0px 0px 2px 0px;
+  background: var(--Grey-50, #eff0f0);
+}
+.cid_2 {
+  position: absolute;
+  display: flex;
+  width: 5%;
+  height: 10%;
+  aspect-ratio: 1;
+  top: 1%;
+  right: 2%;
+  border-radius: 0px 0px 2px 0px;
+  background: var(--Grey-50, #eff0f0);
+}
+.cid_3 {
+  position: absolute;
+  display: flex;
+  width: 5%;
+  height: 10%;
+  aspect-ratio: 1;
+  top: 1%;
+  right: 9%;
+  border-radius: 0px 0px 2px 0px;
+  background: var(--Grey-50, #eff0f0);
+}
